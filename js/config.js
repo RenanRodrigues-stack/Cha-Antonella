@@ -11,7 +11,7 @@ export const CONFIG = {
   nomeBebe: "Antonella",
 
   // Nome de quem está organizando / dos pais (aparece na página inicial)
-  nomeAnfitrioes: "Família",
+  nomeAnfitrioes: "Ryan e Julia",
 
   // Data e hora do evento (formato: "AAAA-MM-DDTHH:MM:SS")
   dataEvento: "2026-11-15T15:00:00",
