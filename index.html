@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chá de Bebê</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Dancing+Script:wght@600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="topo">
+    <span class="eyebrow">Está chegando</span>
+    <h1 id="titulo-bebe">Chá de Bebê</h1>
+    <p class="subtitulo" id="mensagem-boas-vindas"></p>
+  </header>
+
+  <main class="container">
+
+    <section class="cartao">
+      <h2>Contagem regressiva</h2>
+      <div class="contagem" id="contagem"></div>
+    </section>
+
+    <section class="cartao">
+      <h2>Informações do evento</h2>
+      <div class="info-grade">
+        <div class="info-item">
+          <span class="icone">📅</span>
+          <span class="rotulo">Data</span>
+          <div class="valor" id="info-data">--</div>
+        </div>
+        <div class="info-item">
+          <span class="icone">🕒</span>
+          <span class="rotulo">Horário</span>
+          <div class="valor" id="info-hora">--</div>
+        </div>
+        <div class="info-item">
+          <span class="icone">📍</span>
+          <span class="rotulo">Local</span>
+          <div class="valor" id="info-local">--</div>
+        </div>
+      </div>
+      <div class="acoes" id="acao-mapa" style="display:none;">
+        <a href="#" id="link-mapa" target="_blank" class="botao secundario">Ver no mapa</a>
+      </div>
+    </section>
+
+    <section class="cartao" style="text-align:center;">
+      <h2>Confirme sua presença</h2>
+      <p>Sua presença é o maior presente, mas se quiser nos ajudar com o enxoval, escolha um item da nossa listinha ao confirmar!</p>
+      <div class="acoes">
+        <a href="confirmar.html" class="botao">Confirmar presença</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    Feito com carinho para <span id="rodape-nome">o bebê</span> 💕
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
